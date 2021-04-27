@@ -7,4 +7,3 @@
     <title><?php echo $site_title??'Pratishilp'; ?></title>
 </head>
 <body>
- 

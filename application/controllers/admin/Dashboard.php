@@ -12,6 +12,7 @@ class Dashboard extends MY_AdminController{
 	
 	public function index()
 	{
-		$this->load->view('admin/dashboard/index_view');
+		$view = 'admin/dashboard/index_view';
+		$this->load_view($view, []);
 	}
 }

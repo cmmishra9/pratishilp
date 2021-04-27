@@ -7,14 +7,8 @@ class Home extends MY_FrontController {
 	public function index()
 	{
         $this->data['site_title']="Pratishilp-An Architecture Firm";
-		$this->load->view('common/header', $this->data);
-		$this->load->view('home/home_view');
-		$this->load->view('common/footer');
+        $view = 'home/home_view';
+		$this->load_view($view,$this->data);
+		
 	}
-
-    public function main_view(){
-        $this->data['site_title']="Pratishilp-An Architecture Firm";
-        $this->data["page"]="home/home_view";
-        $this->load->view('main_view',$this->data);
-    }
 }

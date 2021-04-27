@@ -1,4 +1,7 @@
-
+<?php
+ 
+  $settings[0]['id'];
+?>
 
 <!-- Banner start -->
 <div class="banner" id="banner">

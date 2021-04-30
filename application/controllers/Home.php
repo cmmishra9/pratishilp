@@ -11,4 +11,20 @@ class Home extends MY_FrontController {
 		$this->load_view($view,$this->data);
 		
 	}
+
+	public function contactus(){
+
+        $this->data['site_title']="Contact Us";
+        $view = 'contact/contact_view';
+		$this->load_view($view,$this->data);
+		
+	}
+
+	public function aboutus(){
+
+        $this->data['site_title']="About Us";
+        $view = 'about/about_view';
+		$this->load_view($view,$this->data);
+		
+	}
 }

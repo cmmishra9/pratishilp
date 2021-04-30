@@ -24,7 +24,7 @@ class MY_Model extends CI_Model {
 		}
 
 		$q=$this->db->get($this->_table_name);
-		return $q->result_array();
+		return $q->result();
 	}
 
 

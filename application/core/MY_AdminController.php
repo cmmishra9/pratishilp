@@ -5,6 +5,7 @@ class MY_AdminController extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
+		$this->load->language("admin","english");
 	}
 
 	public function load_view($view, $data=[]){
